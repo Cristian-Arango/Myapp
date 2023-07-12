@@ -10,7 +10,7 @@ fun main() {
     var dado2:Int=(1..6).random()
     var suma:Int= dado1+dado2
 
-    if (dado1  % 2 === 0 || dado2 % 2 === 0){
+    if (dado1==1 && dado2 ==1){
     println("Felicitacion usted gano porque uno de los dos dados callo un numero par, los dados son $dado1 $dado2")
     }
     else if(suma==3){
